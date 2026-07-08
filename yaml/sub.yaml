@@ -107,7 +107,6 @@ proxy-groups:
   - {name: ⚡ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(🎯 直连)).)*$"}
   - {name: 🌐 全部节点, type: select, include-all: true}
   - {name: 🎯 直连, type: select, proxies: [DIRECT, REJECT]}  # 备用直连
-  #- {name: 🎯 直连, type: url-test, url: https://cp.cloudflare.com/generate_204, interval: 300, proxies: [DIRECT]}  # 测速直连
 
 # 规则匹配
 rules:
