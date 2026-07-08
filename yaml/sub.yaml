@@ -129,7 +129,6 @@ rules:
   - DOMAIN-SUFFIX,huobi.com,🪙 Bitcoin
   - DOMAIN-SUFFIX,huobi.com,🪙 Bitcoin
   - DOMAIN-SUFFIX,huobi.pro,🪙 Bitcoin
-#  - RULE-SET,AppleAi,🧠 Ai
   - RULE-SET,docker_domain,🐳 Docker
   - RULE-SET,PT,🅿️ PT
   - RULE-SET,github_domain,📦 GitHub
@@ -166,7 +165,6 @@ rule-providers:
   proxylite_domain: { <<: *domain, url: "https://raw.githubusercontent.com/Enderiose/clash_drop/refs/heads/main/list/proxy_domain.list"}
   proxylite_ip: { <<: *ip, url: "https://raw.githubusercontent.com/Enderiose/clash_drop/refs/heads/main/list/proxy_ip.list"}
   directlite: { <<: *class, url: "https://raw.githubusercontent.com/Enderiose/clash_drop/refs/heads/main/list/Direct.list"}
-  # AppleAi: { <<: *class, url: "https://raw.githubusercontent.com/zhnglab/openclash/refs/heads/main/proxy.list"}
   PT: { <<: *class, url: "https://raw.githubusercontent.com/Enderiose/clash_drop/refs/heads/main/list/pt.list"}
   Gemini: {  <<: *class, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"}
   OpenAI: {  <<: *class, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list"}
