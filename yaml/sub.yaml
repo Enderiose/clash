@@ -166,7 +166,7 @@ rule-providers:
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite_domain: { <<: *class, url: "https://raw.githubusercontent.com/Enderiose/clash_drop/refs/heads/main/list/proxy_domain.list"}
   proxylite_ip: { <<: *class, url: "https://raw.githubusercontent.com/Enderiose/clash_drop/refs/heads/main/list/proxy_ip.list"}
-  directlite: { <<: *class, url: "https://raw.githubusercontent.com/Enderiose/clash_drop/refs/heads/main/list/Direct.list"}
+  directlite: { <<: *class, url: "https://raw.githubusercontent.com/Enderiose/clash_drop/refs/heads/main/list/direct.list"}
   PT: { <<: *class, url: "https://raw.githubusercontent.com/Enderiose/clash_drop/refs/heads/main/list/pt.list"}
   Gemini: {  <<: *class, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"}
   OpenAI: {  <<: *class, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list"}
